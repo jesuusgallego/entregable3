@@ -32,6 +32,10 @@ resource "docker_container" "jenkins" {
     volume_name    = docker_volume.jenkins_home.name
     container_path = "/var/jenkins_home"
   }
+  volumes {
+    host_path      = "/var/run/docker.sock"
+    container_path = "/var/run/docker.sock"
+  }
   env = [
     "DOCKER_HOST=tcp://docker:2376",
     "DOCKER_TLS_VERIFY=1",

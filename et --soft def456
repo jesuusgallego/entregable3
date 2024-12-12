@@ -1,0 +1,108 @@
+[33mcommit fe09c24dadabfe2a89e7b620a2c7118fca8dd504[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 21:28:41 2024 +0100
+
+    cambios
+
+[33mcommit 5fae4b378bc94dc1f6b19eb5f2223c5012a0cdc6[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 21:25:43 2024 +0100
+
+    cambios
+
+[33mcommit 715c6087b7c332410629fdb66ff10ed2fdfba4d3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 21:21:41 2024 +0100
+
+    cambios
+
+[33mcommit af7650b029bd8affb4a6a495aa5c2026b04958a4[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 19:39:15 2024 +0100
+
+    cambios
+
+[33mcommit 5db058917024783cbc9e54c4e6f97cc5c5ac65ca[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 19:38:26 2024 +0100
+
+    cambios
+
+[33mcommit 1b8c0f244b05e6b5b05b85c79e93900402a027b1[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 19:32:44 2024 +0100
+
+    cambios
+
+[33mcommit 55b9bfd926ef42c98f343fc06c26dedcec0eb0a7[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 19:11:42 2024 +0100
+
+    archivos añadidos
+
+[33mcommit 912202047f34252b1e28262135200525f7b2146d[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 19:06:53 2024 +0100
+
+    cambios
+
+[33mcommit dba20b5ace354d36a6c164e3221fee0801670721[m
+Author: jesuusgallego <jesus.gallegoiba@alum.uca.es>
+Date:   Thu Dec 12 18:52:39 2024 +0100
+
+    archivos necesarios para el despliegue
+
+[33mcommit 128e9ba59f87e29057ab727926dd2e04094672da[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Fri Dec 15 12:04:15 2017 +1100
+
+    Amend final paragraph, since there is no 'scripts' directory.
+    
+    * All Pipeline functionality is controlled solely through the
+    Jenkinsfile itself.
+
+[33mcommit 6fb3974ec850c845b4666b9c52857adc7f166957[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Fri Dec 15 11:59:57 2017 +1100
+
+    Add README.md file content
+
+[33mcommit 0fdc855bdccc7158731d516fb93128b7da41dc77[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Wed Dec 6 14:57:56 2017 +1100
+
+    Amend/fix output for 'add2values' when function is not used correctly
+
+[33mcommit 707cc704ff3d34fd9e61d8c934d57c1375069173[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Wed Dec 6 12:44:06 2017 +1100
+
+    Update Jenkinsfile
+    
+    * This time, switch back to Python 2, use "pytest" to generate JUnit XML report that gets exposed through Jenkins, then archive the Linux executable.
+
+[33mcommit f4d03025e538ec91b8dc1f02179b0fdac7b832fc[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Mon Dec 4 16:11:24 2017 +1100
+
+    Update project
+
+[33mcommit 451a3785a221ad9e988048fe28cd4f7c7ee8efa3[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Tue Nov 28 17:30:45 2017 +1100
+
+    Add Python source files
+    
+    * And update .gitignore
+
+[33mcommit cdf958968181c28029f3f57cd60bdb438837c566[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Mon Nov 27 17:45:37 2017 +1100
+
+    Initial commit
+
+[33mcommit 9a70c149b176a8c59440710a64ecd18e1c1030e6[m
+Author: Giles Gaskell <gilesgas@gmail.com>
+Date:   Mon Nov 27 17:44:35 2017 +1100
+
+    Initial commit

@@ -36,11 +36,19 @@ resource "docker_container" "jenkins" {
     host_path      = "/var/run/docker.sock"
     container_path = "/var/run/docker.sock"
   }
+  volumes {
+    host_path      = "/var/jenkins_home/workspace"
+    container_path = "/var/jenkins_home/workspace"
+  }
   env = [
     "DOCKER_HOST=unix:///var/run/docker.sock"
   ]
+  user = "0" # Ejecutar como root
+  command = [
+    "/bin/bash", "-c",
+    "whoami && groupadd docker && usermod -aG docker jenkins && /usr/bin/tini -- /usr/local/bin/jenkins.sh"
+  ]
 }
-
 
 resource "docker_volume" "jenkins_home" {
   name = "jenkins_home"

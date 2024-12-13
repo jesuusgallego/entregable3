@@ -13,7 +13,7 @@ Este documento contiene las instrucciones necesarias para replicar el proceso co
 
 ### Crear un repositorio en GitHub
 
-    Entramos en la web de GitHub y creamos un repositorio. Desde la terminal de nuestro   ordenador clonamos este repositorio y creamos los directorios necesarios para agrupar   bien este proyecto.
+Entramos en la web de GitHub y creamos un repositorio. Desde la terminal de nuestro   ordenador clonamos este repositorio y creamos los directorios necesarios para agrupar   bien este proyecto.
 
 ### Creamos y configuramos los archivos necesarios
 
@@ -183,7 +183,7 @@ Creamos los archivos:
           default = "docker:dind"
         }
 
-### Constriumos la imagen personaliza de Jenkins
+### Construimos la imagen personaliza de Jenkins
 
    Para ello, utilizamos el comando de Docker:
 
